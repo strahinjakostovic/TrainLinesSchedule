@@ -29,7 +29,7 @@ Database Schema:
 
 <img src="databaseSchema.png">
 
-So, the stations entity represents our lines. Every line has one Start and Stop station, while Start and Stop stations can have many lines.
+So, the stations entity represents our lines. Every line has one Start and Stop station, while Start and Stop stations can have many lines. 
 
 -Secondly, we created our project and installed it with bootstrap 4 UI and Laravel Auth! All of this have been done with COMPOSER. We also ran "npm run dev" so we can push our bootstrap files to the public folder.
 
@@ -44,18 +44,33 @@ So, the stations entity represents our lines. Every line has one Start and Stop 
 
 -There are 3 main files that we used for this project:
 
-1.Index.blade.php (resources\views\index.blade.php)
+1. Index.blade.php (resources\views\index.blade.php)
 
 -User view and JQUERY AJAX functions.
 
-2.StationsController (App\Htpp\Controllers\StationsController.php)
+2. StationsController (App\Http\Controllers\StationsController.php)
 
 -All our back-end functions are stored here.
 
-3.Web.php (routes\web.php)
+3. Web.php (routes\web.php)
 
 -All our routes are stored here.
 
 I have been commenting the code, so you can visit them and see what we have done. 
+
+## AVAILABLE LINES
+
+1. Kraljevo -> Cacak
+2. Pozega -> Cacak
+3. Novi Sad -> Subotica
+4. Zrenjanin -> Kikinda
+5. Nis -> Leskovac
+6. Kragujevac -> Kraljevo
+7. Loznica -> Zvornik
+8. Beograd -> Mladenovac
+9. Smederevo -> Pozarevac
+10. Kraljevo -> Raska
+
+-In further development we can create CRUD operations with an Admin Dashboard where we can add more routes. For now we need to add them manually.
 
 NOTE: IF YOU WANT THIS PROJECT TO WORK ON YOUR OWN PC VISIT INSTALL.md!!!
