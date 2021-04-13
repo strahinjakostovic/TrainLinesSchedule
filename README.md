@@ -19,6 +19,10 @@ So, let's see the view of the user (Full responsive!!!):
 
 <img src="page.png">
 
+4. Responsive design:
+
+<img src="responsive.png">
+
 Login and Register pages are there just in case of further development (booking tickets, creating new lines etc.)!
 ## Get to know the project
 
