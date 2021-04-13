@@ -5,10 +5,10 @@
 Before we even begin, I want to thank you for being here and paying attention to my work!
 In this chapter we are going to talk about the final product that you get. In the comming parts we'll discuss the logic and database of the project, then we'll see the CODE.
 
-So, let's see the view of the user.
+So, let's see the view of the user (Full responsive!!!):
 
 1. When you enter, the first thing that you see looks like this:
-
+-I have added some body height so you can scroll and move the form and see this beautiful picture.
 <img src="home.png">
 
 2. Search part (You can select or type the station name):
