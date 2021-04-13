@@ -46,15 +46,15 @@ So, the stations entity represents our lines. Every line has one Start and Stop 
 
 1.Index.blade.php (resources\views\index.blade.php)
 
--User view and JQUERY AJAX functions
+-User view and JQUERY AJAX functions.
 
 2.StationsController (App\Htpp\Controllers\StationsController.php)
 
--All our back-end functions are stored here
+-All our back-end functions are stored here.
 
 3.Web.php (routes\web.php)
 
--All our routes are stored here
+-All our routes are stored here.
 
 I have been commenting the code, so you can visit them and see what we have done. 
 
