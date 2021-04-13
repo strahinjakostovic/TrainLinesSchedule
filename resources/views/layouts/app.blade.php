@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-md navbar-light shadow-sm">
             <div class="container">
                 <a class="navbar-brand text-white font-weight-bold" style="font-size: 30px;" href="{{ url('/') }}">
-                    {{ config('app.name', 'Serbian Railways') }}
+                    {{ config('app.name', 'Serbian Railways') }} <!-- Changed app name here and in .env file -->
                 </a>
                 <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -79,11 +79,11 @@
         </nav>
 
         <main>
-            @yield('content')
+            @yield('content') <!-- Place for index.blade.php -->
         </main>
 
         <div>
-            @include('layouts.footer')
+            @include('layouts.footer') <!-- Footer will be always displayed when we extend app.blade.php-->
         </div>
 
     </div>

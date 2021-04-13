@@ -15,10 +15,10 @@ use App\Http\Controllers\StationsController;
 |
 */
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index']); /* Showing home page on / route with function index */
 
-Route::get('/', [StationsController::class, 'autocomplete']);
+Route::get('/', [StationsController::class, 'autocomplete']); /* Returning autocomplete function to the home page for SELECT*/
 
-Route::get('/ajax',[StationsController::class, 'ajax'])->name('ajax');
+Route::get('/ajax',[StationsController::class, 'ajax'])->name('ajax'); /* Sending an json response to the ajax script */
 
-Auth::routes();
+Auth::routes(); /* Laravel routes for auth! */
