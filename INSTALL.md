@@ -24,7 +24,7 @@
 8. Step: Go to bash again and type: npm run dev (this will push bootstrap files to public folder, so the user can actually see design)
 9. Step: You are ready to go! Go to bash and type: php artisan serve (this will run your project, then go to broswer and type in your localhost address as the url)
 
-                                 ---  While typing these commands you always need to be in the project folder with your bash!!!!! ---
+---  While typing these commands you always need to be in the project folder with your bash!!!!! ---
 
 
 
