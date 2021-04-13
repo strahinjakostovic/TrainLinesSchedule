@@ -17,7 +17,7 @@ So, let's see the view of the user.
 
 3. Finally, all together:
 
-<img src="page.png>
+<img src="page.png">
 
 Login and Register pages are there just in case of further development (booking tickets, creating new lines etc.)!
 ## Get to know the project
